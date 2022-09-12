@@ -1,3 +1,8 @@
 #bg-presentacion{
     background-color: aqua;
+    border-radius: 0.5rem;
+}
+#perfilfoto{
+    max-width: 300px;
+    max-height: 300px;
 }
