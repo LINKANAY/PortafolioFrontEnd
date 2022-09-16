@@ -1,0 +1,9 @@
+.row{
+    background-color: rgb(103, 199, 141);
+    border-radius: 0.5rem;
+}
+#recuadro{
+    background-color: rgb(205, 205, 82);
+    display: flex;
+    justify-content: center;
+}
