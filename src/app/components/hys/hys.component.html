@@ -1,57 +1,107 @@
-<div class="row">
-    <h1>Hard & Soft Skills</h1>
-    <div class="col-sm-4 col-md-4 col-lg-4" id="recuadro">
-        <circle-progress
-        [percent]="85"
-        [radius]="100"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="8"
-        [outerStrokeColor]="'#78C000'"
-        [innerStrokeColor]="'#C7E596'"
-        [animation]="true"
-        [animationDuration]="300"
-        [showSubtitle]="false"
-        [titleFontSize]="'30'"
-        [subtitle]="'HTML'"
-        [showSubtitle]="true"
-        [subtitleFontSize]="'30'"
-    ></circle-progress>
-    
+<div class="hys">
+    <div class="row">
+        <h1>Hard & Soft Skills</h1>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="recuadro">
+            <circle-progress
+            [percent]="60"
+            [radius]="50"
+            [outerStrokeWidth]="5"
+            [innerStrokeWidth]="8"
+            [outerStrokeColor]="'black'"
+            [innerStrokeColor]="'#C7E596'"
+            [animation]="true"
+            [animationDuration]="300"            
+            [showImage]="true"
+            [imageSrc] = "'../../../assets/html-5.png'"
+            [imageHeight]="40"
+            [imageWidth]="40"            
+        ></circle-progress>
+        <h6 class="col-lg-2 col-md-4 col-sm-6">html</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="recuadro">
+            <circle-progress
+            [percent]="50"
+            [radius]="50"
+            [outerStrokeWidth]="5"
+            [innerStrokeWidth]="8"
+            [outerStrokeColor]="'black'"
+            [innerStrokeColor]="'#C7E596'"
+            [animation]="true"
+            [animationDuration]="300"            
+            [showImage]="true"
+            [imageSrc] = "'../../../assets/css.png'"
+            [imageHeight]="40"
+            [imageWidth]="40"            
+        ></circle-progress>
+        <h6>css</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="recuadro">
+            <circle-progress
+            [percent]="50"
+            [radius]="50"
+            [outerStrokeWidth]="5"
+            [innerStrokeWidth]="8"
+            [outerStrokeColor]="'black'"
+            [innerStrokeColor]="'#C7E596'"
+            [animation]="true"
+            [animationDuration]="300"            
+            [showImage]="true"
+            [imageSrc] = "'../../../assets/github.png'"
+            [imageHeight]="40"
+            [imageWidth]="40"            
+        ></circle-progress>
+        <h6>github</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="recuadro">
+            <circle-progress
+            [percent]="85"
+            [radius]="50"
+            [outerStrokeWidth]="5"
+            [innerStrokeWidth]="8"
+            [outerStrokeColor]="'black'"
+            [innerStrokeColor]="'#C7E596'"
+            [animation]="true"
+            [animationDuration]="300"            
+            [showImage]="true"
+            [imageSrc] = "'../../../assets/gestion-del-tiempo.png'"
+            [imageHeight]="40"
+            [imageWidth]="40"            
+        ></circle-progress>
+        <h6>gestion del tiempo</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="recuadro">
+            <circle-progress
+            [percent]="80"
+            [radius]="50"
+            [outerStrokeWidth]="5"
+            [innerStrokeWidth]="8"
+            [outerStrokeColor]="'black'"
+            [innerStrokeColor]="'#C7E596'"
+            [animation]="true"
+            [animationDuration]="300"            
+            [showImage]="true"
+            [imageSrc] = "'../../../assets/colaboracion.png'"
+            [imageHeight]="40"
+            [imageWidth]="40"            
+        ></circle-progress>
+        <h6>colaboracion</h6>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="recuadro">
+            <circle-progress
+            [percent]="85"
+            [radius]="50"
+            [outerStrokeWidth]="5"
+            [innerStrokeWidth]="8"
+            [outerStrokeColor]="'black'"
+            [innerStrokeColor]="'#C7E596'"
+            [animation]="true"
+            [animationDuration]="300"            
+            [showImage]="true"
+            [imageSrc] = "'../../../assets/adaptacion.png'"
+            [imageHeight]="40"
+            [imageWidth]="40"            
+        ></circle-progress>
+        <h6>adaptabilidad</h6>
+        </div>
     </div>
-    <div class="col-sm-4 col-md-4 col-lg-4" id="recuadro">
-        <circle-progress
-        [percent]="85"
-        [radius]="100"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="8"
-        [outerStrokeColor]="'#78C000'"
-        [innerStrokeColor]="'#C7E596'"
-        [animation]="true"
-        [animationDuration]="300"
-        [showSubtitle]="false"
-        [titleFontSize]="'30'"
-        [subtitle]="'CSS'"
-        [showSubtitle]="true"
-        [subtitleFontSize]="'30'"
-    ></circle-progress>
-    
-    </div>
-    <div class="col-sm-4 col-md-4 col-lg-4" id="recuadro">
-        <circle-progress
-        [percent]="85"
-        [radius]="100"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="8"
-        [outerStrokeColor]="'#78C000'"
-        [innerStrokeColor]="'#C7E596'"
-        [animation]="true"
-        [animationDuration]="300"
-        [showSubtitle]="false"
-        [titleFontSize]="'30'"
-        [subtitle]="'GitHub'"
-        [showSubtitle]="true"
-        [subtitleFontSize]="'30'"
-    ></circle-progress>
-    
-    </div>    
 </div>
