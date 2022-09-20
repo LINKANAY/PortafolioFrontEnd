@@ -3,5 +3,18 @@
     border-radius: 0.5rem;
 }
 #margenimagenes{
+    margin-left: 5%;
     padding-left: 5%;
+}
+
+@media screen and (max-width:553px){
+    #margenimagenes{
+        margin-left: 5%;
+        padding-left: 5%;
+    } 
+}
+#detalleinterno{
+    margin-left: 5%;
+    display: flex;
+    justify-content: flex-start;
 }

@@ -2,7 +2,18 @@
     background-color: aqua;
     border-radius: 0.5rem;
 }
+#nombre{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tituloacercade{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
 #perfilfoto{
-    max-width: 300px;
-    max-height: 300px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
