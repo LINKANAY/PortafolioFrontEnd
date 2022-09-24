@@ -1,10 +1,11 @@
 #logoColor{
-    color: aliceblue;    
+    color: black;    
 }
 #barraborde{
     
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    background-color: rgb(156, 218, 218) ;
+    /*background-color: rgb(127, 255, 182);*/
+    border-radius: 00.5rem;
 }
 #banner{
     max-height: 300px;

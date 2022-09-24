@@ -1,19 +1,24 @@
 #bg-presentacion{
-    background-color: aqua;
+    background-color: rgb(156, 218, 218) ;
     border-radius: 0.5rem;
 }
-#nombre{    
+#detalle{    
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
-#tituloacercade{
+#nombre{
+    font-family: 'Didot', Georgia, Impact, 'American Typewriter';
+    font-weight: bold;
+    margin-top: 5%;
+}
+#detalleacercade{
     display: flex;
-    justify-content: center;
-    margin-top: 3%;
+    flex-direction: column;
+    align-items: center;    
+    text-align: justify;
 }
 #perfilfoto{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
