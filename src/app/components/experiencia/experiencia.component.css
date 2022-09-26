@@ -2,19 +2,26 @@
     background-color: rgb(156, 218, 218) ;
     border-radius: 0.5rem;
 }
-#margenimagenes{
+#tituloedit{
     margin-left: 5%;
-    padding-left: 5%;
 }
-
-@media screen and (max-width:553px){
-    #margenimagenes{
-        margin-left: 5%;
-        padding-left: 5%;
-    } 
+#margenimagenes{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 180px;
+    height: 90px;
 }
 #detalleinterno{
     margin-left: 5%;
     display: flex;
     justify-content: flex-start;
+}
+#btns{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5%;
+}
+.btnedicion{
+    margin-right: 10px;
 }

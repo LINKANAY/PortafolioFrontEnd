@@ -2,3 +2,11 @@
     background-color: rgb(156, 218, 218) ;
     border-radius: 0.5rem;
 }
+#btns{
+    align-items: flex-start;
+    margin-top: 5px;    
+    margin-bottom: 5%;
+}
+.btnedicion{
+    margin-right: 10px;
+}

@@ -1,4 +1,7 @@
-.row{
+.partefinal{
     background-color: rgb(156, 218, 218) ;
     border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
