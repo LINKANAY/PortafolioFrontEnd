@@ -10,3 +10,12 @@
 .btnedicion{
     margin-right: 10px;
 }
+#logoedu{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+#tituloedit{
+    margin-left: 5%;
+}

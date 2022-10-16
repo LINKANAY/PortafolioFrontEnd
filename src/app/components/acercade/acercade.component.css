@@ -27,3 +27,6 @@
     position: absolute;
     top: 5%;
 }
+.container-fluid{
+    padding-right: 0px;
+}

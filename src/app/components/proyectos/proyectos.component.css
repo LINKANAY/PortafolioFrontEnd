@@ -3,9 +3,12 @@
     border-radius: 0.5rem;
 }
 .recuadro{
-   width: auto; 
-}
-.colum1, .colum2{
-display: inline-block;
-text-align: justify;
-}
+    width: auto; 
+ }
+ .colum1, .colum2{
+    display: inline-block;
+    text-align: justify;
+    }
+    #tituloedit{
+        margin-left: 5%;
+    } 
